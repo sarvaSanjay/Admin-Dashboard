@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="sliders-solid.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://kit.fontawesome.com/ae5c0da923.js" crossorigin="anonymous"></script>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text">
+            </div>
+            <div class="account">
+                <a style="display: flex; align-items: center; font-size: 1.2em;"><i class="fa-regular fa-bell"></i></a>
+                <button id="avatar">S</button>
+                <a style="display: flex; align-items: center;">Sarva Sanjay</a>
+            </div>
+            <div class="greeting">
+                <div class="username">S</div>
+                <div class="hello">Hello,</div>
+                <div class="user">Sarva Sanjay</div>
+            </div>
+            <div class="actions">
+                <button>New</button><button>Upload</button><button>Save</button>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="logo"><div class="logo-wrapper"><i class="fa-solid fa-sliders"></i> Dashboard</div></div>
+            <div class="pages">
+                <div class="page"><i class="fa-solid fa-house"></i>Home</div>
+                <div class="page"><i class="fa-solid fa-user"></i>Profile</div>
+                <div class="page"><i class="fa-solid fa-envelope"></i>Messages</div>
+                <div class="page"><i class="fa-solid fa-envelope"></i>History</div>
+                <div class="page"><i class="fa-solid fa-list-check"></i>Tasks</div>
+                <div class="page"><i class="fa-solid fa-people-group"></i>Communities</div>
+            </div>
+            <div class="supports">
+                <div class="support"><i class="fa-solid fa-gear"></i>Settings</div>
+                <div class="support"><i class="fa-solid fa-question"></i>Support</div>
+                <div class="support"><i class="fa-solid fa-lock"></i>Privacy</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="projects-main">
+                <div class="projects-heading">Your Projects</div>
+                <div class="projects">
+                    <div class="project">
+                        <div class="tag"></div>
+                        <div class="project-content">
+                            <div class="project-title">Grocery optimiser API</div>
+                            <div class="description">A grocery optimiser that helps you find the cheapest grocery bill amongst neighbouring grocery stores.</div>
+                            <div class="icons">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-sharp fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="tag"></div>
+                        <div class="project-content">
+                            <div class="project-title" >SmART Time</div>
+                            <div class="description">A time management website for students which helps them set deadlines and calculates time they should spend each day on a particular task.</div>
+                            <div class="icons">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-sharp fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="tag"></div>
+                        <div class="project-content">
+                            <div class="project-title">Sudoku AI</div>
+                            <div class="description">Sudoku game built using pygame along with an AI that can solve any Sudoku grid using the backtrack algorithm. Built for fellow Sudoku enthusiasts like myself.</div>
+                            <div class="icons">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-sharp fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="tag"></div>
+                        <div class="project-content">
+                            <div class="project-title">Traders</div>
+                            <div class="description">Mock stock trading website to remove the stigma and fear surrounding the stock market. Users can buy, sell and view financial details of companies on NASDAQ.</div>
+                            <div class="icons">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-sharp fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="tag"></div>
+                        <div class="project-content">
+                            <div class="project-title">Tic-Tac-Toe</div>
+                            <div class="description">Tic-Tac-Toe game built using pygame. Users can play against each other or against a master AI that shall never lose.</div>
+                            <div class="icons">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-sharp fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements-main">
+                <div class="announcements-heading">Announcements</div>
+                <div class="announcements">
+                    <div class="announcement">
+                        <div class="announcement-title">Site maintainance</div>
+                        <div class="content">
+                            Site shall be shut from the 26th to the 31st of this month as certain errors shall need fixing.
+                        </div>
+                    </div>
+                    <div class="announcement">
+                        <div class="announcement-title">Community Share Day</div>
+                        <div class="content">
+                            Interact with fellow members of your coding community to win interesting prizes and awards.
+                        </div>
+                    </div>
+                    <div class="announcement">
+                        <div class="announcement-title">Privacy Policy Update</div>
+                        <div class="content">
+                            Kindly review our extended privacy policy and agree to any additional terms and conditions.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <div class="trending-heading">Trending</div>
+                <div class="trends">
+                    <div class="trend">
+                        <div class="profile">SG</div>
+                        <div class="trend-id">@saulgoodman</div>
+                        <div class="trend-name">Leading Lawyer</div>
+                    </div>
+                    <div class="trend">
+                        <div class="profile">WW</div>
+                        <div class="trend-id">@walterwhite</div>
+                        <div class="trend-name">Chemistry Teacher</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
